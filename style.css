@@ -155,6 +155,19 @@ header {
     background: linear-gradient(90deg, var(--Verylightred), var(--Lightred));
     border-radius: 50vw;
 }
+#login-btndesk {
+    padding: 1rem 0 .5rem 0;
+}
+
+#signup-btndesk {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 900;
+    margin: .5rem 4.5rem;
+    padding: .5rem;
+    background: linear-gradient(90deg, var(--Verylightred), var(--Lightred));
+    border-radius: 50vw;
+}
 
 .display {
     display: block!important;
@@ -424,7 +437,22 @@ footer li:hover{
         right: -20vw;
 
     }
+    #login-btndesk{
+        padding: 1em 4em;
+        position: absolute;
+        top: -1rem;
+        right: -20vw;
+
+    }
     #signup-btn{
+        padding: .5em 2em;
+        background: white;
+        color: var(--Verylightred);
+        position: absolute;
+        top: -1rem;
+        right: -40vw;
+    }
+    #signup-btndesk{
         padding: .5em 2em;
         background: white;
         color: var(--Verylightred);
@@ -434,6 +462,11 @@ footer li:hover{
     }
 
     #signup-btn:hover{
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        text-decoration: none;
+    }
+    #signup-btndesk:hover{
         background: rgba(255, 255, 255, 0.2);
         color: white;
         text-decoration: none;
@@ -543,11 +576,11 @@ footer li:hover{
 }
 
 @media screen and (min-width:1000px){
-    #login-btn{
+    #login-btndesk{
         right: -35vw;
 
     }
-    #signup-btn{
+    #signup-btndesk{
         right: -55vw;
     }
 }
@@ -557,11 +590,11 @@ footer li:hover{
         font-size: 19px;
     }
 
-    #login-btn{
+    #login-btndesk{
         right: -40vw;
         padding: 1em 2em;
     }
-    #signup-btn{
+    #signup-btndesk{
         right: -60vw;
     }
 

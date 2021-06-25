@@ -7,7 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" sizes="32x32" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -35,13 +35,13 @@
   <header>
     <div class="headerpattern">
       <img class="headimage" src="./images/logo.svg" alt="logo">
-      <button lass="headimage" id="burgericon" onclick="toggle_visibility('burgermenu');"> <img
+      <button class="headimage" id="burgericon" onclick="toggle_visibility('burgermenu');"> <img
           src="./images/icon-hamburger.svg" alt="hamburgerico"></button>
 
 
       <nav id="burgermenu" class="mob-menu-container">
         <div class="mob-menu">
-          <ul class="dropdown">
+          <div class="dropdown">
             <button id="dropbtn1" class="navitem dropbtn" onclick="dropdown1()">Product <img
                 src="./images/icon-arrow-dark.svg" alt="icon-arrow-dark"></button>
             <ul id="drop1" class="dropdown-content sublist">
@@ -69,7 +69,7 @@
             <hr id="mob-line">
             <li id="login-btn">Login</li>
             <li id="signup-btn">Sign Up</li>
-          </ul>
+          </div>
         </div>
       </nav>
 
@@ -100,8 +100,8 @@
               <li class="sub-navitem">Newsletter</li>
               <li class="sub-navitem">LinkedIn</li>
             </ul>
-            <button id="login-btn">Login</button>
-            <button id="signup-btn">Sign Up</button>
+            <button id="login-btndesk">Login</button>
+            <button id="signup-btndesk">Sign Up</button>
           </ul>
         </div>
       </nav>
